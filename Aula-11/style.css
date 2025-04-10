@@ -1,0 +1,13 @@
+body{
+    background-color: lightgray; font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {color: white; font-size: 4em;}
+
+h2{color: brown;}
+
+p{
+    color: blue; font-size: smaller;
+}
+
+/* Olá */
