@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/icons8-super-mario-32.png" type="image/x-icon">
+</head>
+<body>
+    <ul id="menu-horizontal">
+        <li><a href="./index.html">Menu Inicial</a></li>
+        <li><a href="./currículo.html">Currículo</a></li>
+        <li><a href="./github.html">Github</a></li>
+        <li><a href="./servicos.html">Serviços</a></li>
+        <li><a href="./contato.html">Contato</a></li>
+    </ul>
+     
+    <main>
+        <h1>Contato</h1>
+        <hr>
+        <h2>Adicione suas informações</h2>
+        <div>
+            <form action="">
+                <fieldset>
+                    <label for=""><strong>Nome completo</strong>
+                        <input type="text" name="nome" id="nome" required>
+                    </label>
+                    
+                </fieldset>
+                <fieldset>
+                    <label for=""><strong>Telefone</strong>
+                        <input style="margin-left: 54px;" type="tel" name="telefone" id="telefone" required>
+                    </label>
+                    <br>
+                    <br>
+                    
+                    <label  for=""><strong>E-mail</strong>
+                        <input  style="margin-left: 71px;" type="email" name="email" id="email" required style="margin-left: 15px;">
+                    </label>
+                    
+                </fieldset>
+                <fieldset>
+                    <p><strong>Tipo de pessoa:</strong></p>
+                    <label for="">
+                        <input type="radio" name="pessoa" value="fisica">Física
+                        <input type="radio" name="pessoa" value="juridica">Jurídica
+                    </label>
+                    
+                </fieldset>
+                <fieldset>
+                    <p><strong>Opções de horário para contato:</strong></p>
+                    <label for="">
+                        <input type="checkbox" name="horarios" id="horarios" value="manha">Manhã (08h - 12h)
+                    </label><br>
+                    <label for="">
+                        <input type="checkbox" name="horarios" id="horarios" value="tarde">Tarde (13h - 17h)
+                    </label>
+                    
+                </fieldset>
+                <fieldset>
+                    <label for=""><strong>Tipo de serviço:</strong>
+                        <select name="servico" id="" required>
+                            <option value="selecione" selected disabled value="">Selecione</option>
+                            <option value="estatica">Página estática</option>
+                            <option value="dinamica">Página dinâmica</option>
+                            <option value="avancada">Página avançada</option>
+                        </select>
+                    </label>
+
+                </fieldset>
+                <fieldset>
+                    <p><strong>Descrição:</strong></p>
+                    <label for="">
+                        <textarea style="width: 22em;" name="Descrição" id="descricao"></textarea>
+                    </label>
+                </fieldset>
+                <button type="submit">Concluído</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
