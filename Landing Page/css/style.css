@@ -55,6 +55,7 @@ main{
     margin: auto;
     padding: 35px;
     margin-top: 25px;
+    margin-bottom: 25px;
     box-shadow: 10px 10px 10px rgb(44, 59, 73);
     
 }
@@ -69,4 +70,7 @@ input:hover, select:hover, textarea:hover, button:hover{
 }
 button{
     margin-left: 15px;
+}
+audio{
+    margin-top: 10px;
 }
