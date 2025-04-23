@@ -1,0 +1,14 @@
+@charset
+
+@font-face {
+    font-family: "Top Secret" ;
+    src: url(font/Top\ Secret.ttf);
+}
+@font-face {
+    font-family: "Honk" ;
+    src: url(font/Honk-Regular-VariableFont_MORF\,SHLN.ttf);
+}
+@font-face {
+    font-family: "LLCooper" ;
+    src: url(font/LLCOOPER.TTF);
+}
