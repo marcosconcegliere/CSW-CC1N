@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula-15</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        h1{
+            color: green;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a::before{
+            content: '>>';
+        }
+        a::after{
+            content: '[Link]';
+            color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Pseudo Elemento</h1>
+    <br>
+    <ul>
+        <li><a href="https://github.com/marcosconcegliere">Repoitório do Github</a></li>
+        <li><a href="https://www.youtube.com/@uvv-universidadevilavelha4807">Canal do youtube</a></li>
+        <li><a href="https://uvv.br/">Site da UVV</a></li>
+    </ul>
+</body>
+</html>
