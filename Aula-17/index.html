@@ -44,12 +44,16 @@
         .botoes {
             display: flex;
             align-content: center;
-            justify-content: flex-end;
-            flex-direction: row;
+            justify-content: flex-start;
+            flex-direction: column;
             padding: 10px;
             border-radius: 5px;
         }
-
+        #caixadebotoes{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
         
     </style>
 </head>
@@ -149,13 +153,18 @@
                         </select>
                     </fieldset>
                 </div>
-            </div>
         </div>
-    </form>  
-    <div class="botoes">
-        <button type="submit" style="font-size: large;">Enviar</button>
-        <button type="reset" style="font-size: large;" >"Limpar"</button>
     </div>
+    <div id="caixadebotoes">
+        <div class="botoes">
+            <button type="submit" style="font-size: large;">Enviar</button>
+        </div>
+        <div class="botoes">
+            <button type="reset" style="font-size: large;" >"Limpar"</button>
+        </div>
+    </div>
+    </form>  
+    
    </main>
             
 
