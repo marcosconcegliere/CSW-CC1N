@@ -4,21 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MostraIdade</title>
-    <style>
-        #digite{
-            display: flex;
-            justify-content: left;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-   
+   <main>
     <div id="digite">
         <p>Digite sua idade:</p>
         <input type="number" id="idade">
-        <button onclick="mostraridade()" id="identificar">Identificar</button>
+        <button onclick="calcular()" id="botao">Identificar</button>
+        <p id="mostrar"></p>
     </div>
     
     <script src="script.js"></script>
+   </main>
 </body>
 </html>
